@@ -1,0 +1,80 @@
+/*Od uvek sad na sajtu da se trudim da ubacim po neki hover*/
+
+/*Razlika izmedju active i focus je slicna ali postoji*/
+
+/*Focus persists, active is amidiate state*/
+/* h1:hover{
+    background-color: pink;
+}
+
+button:hover{
+    color: white;
+}
+
+input:focus {
+    background-color: teal;
+}
+
+button:focus{
+
+    border-radius: 10px;
+    background-color: #2ecc71;
+}
+
+button:active{
+    background-color: orange;
+    font-size: 30px;
+}
+
+h1:active, p:active {
+    color: yellow;
+} */
+
+/*Dobra taktika, zapamticu za dugme da ide gore dole dobra animacija moze da se primeni*/
+
+body{ 
+
+    background-color: #fcd04b;
+    font-family: Lato;
+    color: white;
+}
+
+h1{
+    
+    text-align: center;
+    font-weight: 300;
+}
+
+.btn {
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background-color: #fcad26;
+    font-size: 16px;
+    font-weight: 300px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow:  0 6px #efa424;
+
+} 
+
+.btn:hover {
+
+     box-shadow: 0 4px #efa424;
+     top: 2px;
+}
+
+
+.btn:active{
+
+    box-shadow: none;
+    top: 6px;
+
+}

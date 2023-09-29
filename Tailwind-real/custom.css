@@ -1,0 +1,82 @@
+.image-container{
+    width: 100%;
+    height: 36vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)), url(https://www.inmotionhosting.com/wp-content/uploads/2023/09/web-hosting-map-hero.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: #cecece 0px 0px 0px 0px inset;
+  
+}
+
+.section{
+    background-color: beige;
+}
+
+.dotted-line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 3px dotted red;
+   
+  }
+
+  .background-image{
+    width:100%;
+    height: 40vh;
+    background-image: url('https://www.inmotionhosting.com/wp-content/uploads/2022/03/imh-business-needs.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+ 
+  .wave-crop{
+    position: absolute;
+  }
+  /* .indent-crop {
+    position: relative;
+    width: 100%; /* Adjust the width and height as needed */
+    /* height: 40vh;
+    overflow: hidden;
+  }
+   */
+  /* .background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.inmotionhosting.com/wp-content/uploads/2022/03/imh-business-needs.jpg'); Replace 'your-image.jpg' with your image URL 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-position: 50% 50%;
+    /* clip-path: polygon(0% 30%, 100% 10%, 100% 100%, 0% 100%); 
+    /* clip-path: polygon(0% 20%, 90% 10%, 100% 100%, 0% 100%); 
+  }
+
+ /* url('https://www.inmotionhosting.com/wp-content/uploads/2022/03/imh-business-needs.jpg');  
+/* Replace 'your-image.jpg' with your image URL 
+  
+.svg-container{
+    width: 100%;
+} */
+
+
+ /* .wave-crop {
+    position: relative;
+    width: 100%; /* Adjust the width as needed 
+    height: 95px;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.inmotionhosting.com/wp-content/uploads/2022/03/imh-business-needs.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    clip-path: url(#waveMask);  Reference the ID of the SVG path 
+  }
+  
+  .wave-mask {
+    fill: none;
+  }  */
