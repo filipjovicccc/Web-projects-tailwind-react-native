@@ -8,113 +8,181 @@
     <title>Document</title>
 </head>
 <body>
-  <nav class="w-full flex flex-col items-center justify-between h-36 mb-10">
-     <div class="w-2/3 flex items-center justify-between">
-      <div>logo</div>
-      <div class="flex justify-between w-80">
-        <p>Chat Now</p>
-        <p>063609848523</p>
-        <p>Symbol</p>
-      </div>
-     </div>
-     <div class="h-px w-2/3 bg-gray-300"></div>
-     <div class="flex justify-between w-2/3">
-        <a href="">Web Hosting</a>
-        <a href="">WordPress</a>
-        <a href="">VPS Hosting</a>
-        <a href="">Dedicated Servers</a>
-        <a href="">Domain</a>
-        <a href="">Why Us</a>
-     </div>
+    <header class="w-screen h-28 flex flex-col items-center justify-between">
+       <div class="w-2/3 h-36 flex items-center justify-between">
+            <div>logo</div>
+            <div class="flex justify-between w-80">
+              <p>Chat Now</p>
+              <p>063609848523</p>
+              <p>Symbol</p>
+            </div>
+           </div>
+           <div class="h-px w-2/3 bg-gray-300 ">
+        
+           </div>
+           <nav class="h-36 items-center justify-between w-2/3 hidden lg:flex">
+              <button id="hostingOpen" class="w-28 h-12 border" href="">Web Hosting</button>
+              <a href="">WordPress</a>
+              <a href="">VPS Hosting</a>
+              <a href="">Dedicated Servers</a>
+              <a href="">Domain</a>
+              <a href="">Why Us</a>
+           </nav>
+    </header>
+    <!-- <main class="relative">
+        <div class="image-container">
+         
+        </div>
+    
+        <div class="absolute bottom-0 left-0 md:bottom-16 lg:bottom-6 text-white text-center md:text-start w-full flex flex-col md:flex-row justify-center border">
+            <div class="md:pl-4">
+                <h3 class="text-sm lg:text-2xl">WEB HOSTING</h3>
+                <h1 class="text-xl lg:text-3xl font-bold">Fast, Scalable Solution for Websites Globally</h1>
+                <h3 class="text-sm lg:text-2xl">Now Proudly Offering a Europe Data Center Location</h3>
+                <p class="text-base lg:text-xl">Experience enhanced web hosting  -->
+    
 
-  </nav>
-   <main>
-    <div class="image-container">
-    </div>
+     <main class="relative">
+        <div class="image-container">
+        </div>
+        <div id="hosting" class="absolute hidden top-0 left-80 h-44 w-96 bg-white text-blue-500 z-10 items-start justify-center">
+             <div>
+                Symbol Symbol
+             </div>
+             <div>
+                <h2>Shared Hosting</h2>
+                <p>Fast, Reliable & Secure </p>
 
-    <div class="absolute mb-19 bottom-96 items-center text-white w-full h-96 flex justify-center">
-        <div class="pr-20">
-            <h3 class="text-2xl">WEB HOSTING</h3>
-            <h1 class="text-4xl font-bold"> Fast, Scalable Solution for Websites Globally </h1>
-            <h3 class="text-2xl">Now Proudly Offering a Europe Data Center Location</h3>
-            <p class="text-xl">Experience enhanced web hosting at our new Europe data center for faster, more reliable, and <br>
-            secure service that impresses clients worldwide</p>
+               <h2>Ressel Hosting</h2>
+               <p>While label cPanel/WHM for Reseller</p>
+
+             </div>
+            
 
         </div>
-        <div class="pl-20">
-            <button class="bg-blue-700 p-5">
-                Explore European Web Hosting
-            </button>
-        </div>
-
-        </div>
-
-        <section class="w-2/3 m-auto flex justify-between h-80 absolute bottom-40 left-80">
-            <div class="border p-10 bg-white shadow-xl rounded-xl">
+      
+        <div class="absolute ml-5 bottom-96 md:bottom-16 lg:h-96 lg:bottom-6 text-white text-center md:text-start items-center w-full flex flex-col md:flex-row justify-center">
+            <div class="pr-0 md:pr-24">
+                <h3 class="text-sm lg:text-2xl">WEB HOSTING</h3>
+                <h1 class="text-xl lg:text-3xl font-bold"> Fast, Scalable Solution for Websites Globally </h1>
+                <h3 class="text-sm lg:text-2xl">Now Proudly Offering a Europe Data Center Location</h3>
+                <p class="text-base lg:text-xl">Experience enhanced web hosting at our new Europe data center for faster, more reliable, and <br>
+                secure service that impresses clients worldwide</p>
+    
+            </div>
+            <div class="pl:0 md:pl-20">
+                <button class="bg-blue-700 hover:bg-blue-900 h-11 w-72 mt-10">
+                    Explore European Web Hosting
+                </button>
+            </div>
+    
+            </div>
+        <div class="lg:absolute left-80 w-2/3 h-screenHeight md:h-screen lg:h-screen m-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 mega:grid-col-5 gap-12 xl:top-64">
+           
+            <div class="w-56 h-96 bg-white flex text-center flex-col items-center justify-between  p-4 rounded-xl border shadow-xl">
                 <p>Symbol</p>
-                <h4>Shared Hosting</h4>
-                <p>Cost effective and fast<br>
+                <h4 class="text-2xl font-light">Shared Hosting</h4>
+                <p class="font-thin">Cost effective and fast<br>
                 for small businesses</p>
                 <p>Starting At:
-                    $2.99/mo
+                    <span class="block text-4xl">$2.99/mo</span>
+                    
                 </p>
-                <button class="font-blue border border-blue-500">Compare Plans</button>
-                
+                <button class="font-blue border h-9 w-40 border-blue-500 hover:bg-blue-700 hover:text-white">Compare Plans</button>
             </div>
-            <div class="border p-10 bg-white shadow-xl rounded-xl">
+        
+            
+            <div class="w-56 h-96 bg-white flex text-center flex-col items-center justify-between  p-4 rounded-xl border shadow-xl">
                 <p>Symbol</p>
-                <h4>VPS Hosting</h4>
-                <p>For high traffic sites and<br>
+                <h4 class="text-2xl font-light">VPS Hosting</h4>
+                <p class="font-thin">For high traffic sites and<br>
                 larger businesses</p>
                 <p>Starting At:
-                    $19.99/mo
+                    <span class="block text-4xl">$19.99/mo</span>
+                    
                 </p>
-                <button class="font-blue border border-blue-500">Compare Plans</button>
+                <button class="font-blue border h-9 w-40 border-blue-500 hover:bg-blue-700 hover:text-white">Compare Plans</button>
+         
             </div>
-            <div class="border p-10 bg-white shadow-xl rounded-xl">
+        
+           
+            <div class="w-56 h-96 bg-white flex text-center flex-col items-center justify-between p-4 rounded-xl border shadow-xl">
                 <p>Symbol</p>
-                <h4>Dedicated Hosting</h4>
-                <p>For high traffic sites and<br>
+                <h4 class="text-2xl font-light">Dedicated Hosting</h4>
+                <p class="font-thin">For high traffic sites and<br>
                 custom deployments</p>
                 <p>Starting At:
-                    $89.99/mo
+                    <span class="block text-4xl">$89.99/mo</span>
+                    
                 </p>
-                <button class="font-blue border border-blue-500">Compare Plans</button>
+                <button class="font-blue border h-9 w-40 border-blue-500 hover:bg-blue-700 hover:text-white">Compare Plans</button>
+              
             </div>
-            <div class="border p-10 bg-white shadow-xl rounded-xl">
+        
+            
+            <div class="w-56 h-96 bg-white flex text-center flex-col items-center justify-between  p-4 rounded-xl border shadow-xl">
                 <p>Symbol</p>
-                <h4>Optimized Shared</h4>
-                <p>Expertly tuned hosing<br>
+                <h4 class="text-2xl font-light">Optimized Shared</h4>
+                <p class="font-thin">Expertly tuned hosing<br>
                 with cPanel</p>
                 <p>Starting At:
-                    $3.49/mo
+                   <span class="block text-4xl">$3.49/mo</span> 
                 </p>
-                <button class="font-blue border border-blue-500">Compare Plans</button>
+                <button class="font-blue border h-9 w-40 border-blue-500 hover:bg-blue-700 hover:text-white">Compare Plans</button>
             </div>
-            <div class="border p-10 bg-white shadow-xl rounded-xl">
+        
+           
+            <div class="w-56 h-96 bg-white text-center flex flex-col items-center justify-between p-4 rounded-xl border shadow-xl">
                 <p>Symbol</p>
-                <h4>Platform i Cloud</h4>
-                <p>Next generation<br>
+                <h4 class="text-2xl font-light">Platform i Cloud</h4>
+                <p class="font-thin">Next generation<br>
                 managed WordPress</p>
-                <p>Starting At:
-                    $15.00/mo
+                <p >Starting At:
+                    <span class="block text-4xl">$15.00/mo</span>
                 </p>
-                <button class="font-blue border border-blue-500">Learn More</button>
+                <button class="font-blue border h-9 w-40 border-blue-500 hover:bg-blue-700 hover:text-white">Learn More</button>
+                
             </div>
-        </section>
-    </main>
-    <section class="p-96 w-full border section text-center">
-
-        <h1 class="text-4xl">Trust Your Website to an Industry Leader in Website Hosting</h1>
-
-        <div class="grid gap-4 grid-cols-3 grid-rows-3 mt-20">
-            <span class="text-2xl">99.99% Uptime and Security Monitoring</span>
-            <span class="text-2xl">Over 500.000 WordPress Installations and Counting</span>
-            <span class="text-2xl">Award-Winning Service and Support Teams</span>
-            <span class="text-2xl">Most Trusted Web Hosting Provider in the Industry</span>
-            <span class="text-2xl">Industry Leading 90-Day Money Back Guarantee</span>
-            <span class="text-2xl">Committed to Open Source Community & Development</span>
         </div>
+    </main>
+
+    <div class="helpper">
+    </div>
+    <section class="w-screen hosting-section text-center">
+
+        <h1 class="text-4xl mb-16">Trust Your Website to an Industry Leader in Website Hosting</h1>
+
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+            
+            <div class="p-4 rounded-lg text-xl">
+                99.99% Uptime and<br>
+                 Security Monitoring
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+                Over 500.000<br> WordPress Installations<br>
+                 and Counting
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+                 Award-Winning Service<br>
+                 and Support Teams
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+                Most Trusted Web<br>
+                 Hosting Provider in the<br>
+                  Industry
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+                 Industry Leading 90-Day<br>
+                 Money Back Guarantee
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+                Committed to Open Source<br>
+                 Community &<br>
+                  Development
+            </div>
+        </div>
+    
+     
         <div class="flex flex-col h-28">
             <h1 class="text-center text-xl mb-20">We Use the Best Web Hosting Servers abd Application Software</h1>
             <div class="dotted-line w-96"></div>
@@ -126,23 +194,382 @@
         </div>
     </section>
 
-    <div class="wave-crop ">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-            <path class="wave-mask" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
-        </svg>
-        
-        <div class="background-image"></div>
-      </div>
+    <section class="w-screen h-screen featured-section text-center mt-10 flex flex-col items-center">
 
-    <!-- <div class="hosting-section">
-        <div class="indent-crop">
-            <div class="background-image"></div>
-          </div>
-        <div class="svg-container">
-        </div>   -->
-        <!-- <img style="width: 100%;" src="images/image.svg" alt=""> -->
+        <h1 class="text-4xl mb-16">Explore Website Hosting Features</h1>
+
+        <div class="w-2/3 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 border text-left">
+            
+            <div class="p-4 rounded-lg border text-xl w-96">
+                <h1>Symbol</h1>
+                <h1 class="text-2xl">Onboard Quickly</h1>
+               <p>  Start using your hosting, domains, email and<br>
+                more in minutes </p> 
+            </div>
+            <div class="p-4 rounded-lg text-xl w-96">
+                <h1>Symbol</h1>
+                <h1 class="text-2xl">24/7 U.S -Based Support</h1>
+                  <p>Your customer service team of experts are<br>
+                     available 24/7/365</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl w-96">
+                <h1>Symbol</h1>
+                <h1 class="text-2xl">Complete Server Solutions</h1>
+               <p>Host your apps, build custom stacks, and choose<br>
+                  your control panel and OS</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl w-96">
+                <h1>Symbol</h1>
+                <h1 class="text-2xl">Flexible Billing</h1>
+                <p>Choose the terms and plans that best fit your<br>
+                 needs. Change at any time</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl w-96">
+                <h1>Symbol</h1>
+                <h1 class="text-2xl">Dedicated to Security</h1>
+                <p>Monitoring and defending your websites from<br>
+                  online threats</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl border w-96">
+                <h1>Symbol</h1>
+                <h1 class="text-2xl">90-Day Money-Back</h1>
+                <p>Industry-leading money-back guarantee in case you change your</p>
+            </div>
+        </div>
+    
+     
+        <div class="flex flex-col h-28 mb-10">
+            <h1 class="text-center text-xl mb-20">Consistently ranked among the best web hosting companies by trusted independent sources</h1>
+            <button class="bg-blue-700 text-white mb-96 w-52 p-2 mx-auto">Shared Hosting Plans</button>
+        </div>
+        <div class="dotted-line w-screen mt-12"></div>
+        <div class="flex justify-between">
+            <p class="italic mt-5">"My job is to make sure you are 100% satisfied with your web hosting."</p>
+            <p>Sbrina D.<br>
+                  Customer Service</p>
+        </div>
+    </section>
+
+    <section class="w-screen bg-whitePrimary text-center">
+
+        <h1 class="text-4xl mb-16">U.S - Based Customer Service Team</h1>
+        <h2 class="text-xl">Contact Our Web Hosting Experts 24/7/365</h2>
+
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 w-1/2 border mx-auto">
+            
+            <div class="p-4 rounded-lg text-xl">
+              <p>S 24/7 Live Chat</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+               <p>S Online Support Center</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+                <p>S 24/7 Monitoring and Ticketing</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+              <p>S Step-by-Step Education Chanels</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+                 <p>S Phone Support Available</p>
+            </div>
+            <div class="p-4 rounded-lg text-xl">
+                <p>S Community Support Forums</p>
+            </div>
+        </div>
+    
+        <div class="flex flex-col h-28">
+            <h1 class="text-center text-xl mb-20">We Use the Best Web Hosting Servers abd Application Software</h1>
+            <div class="dotted-line w-96"></div>
+        </div>
+        <div class="flex justify-between">
+            <p class="italic mt-5">"My job is to make sure you are 100% satisfied with your web hosting."</p>
+            <p>Sbrina D.<br>
+                  Customer Service</p>
+        </div>
+    </section>
+
+    <div class="w-screen relative h-screen flex flex-col bg-whitePrimary text-center">
+        <h1 class="mt-10 text-3xl">Choose a web hosting provider that understands starting small and scaling up. We have<br>
+            designed our <span class="font-bold">Web Hosting plans</span> to help you do the same</h1>
+           <h2 class="text-2xl mt-8">Your Success is Our Passion. <span class="text-blue-500">Read Our Story S</span></h2>
+           <div class="grid grid-cols-3 h-32 w-2/3 m-auto mt-8 z-10 divide-x divide-red-500 divide-solid">
+            <div>
+                <h1 class="text-5">170k</h1>
+                <p>Thrilled Customers & Growing</p>
+           </div>
+            <div>
+                <h1 class="text-5">22+</h1>
+                <p>Years of Hosting Knowledge</p>
+            </div>
+            <div>
+                <h1 class="text-5">350+</h1>
+                <p>Expert Team Members</p>
+            </div>
+              
+           </div>
+        <svg class="absolute top-96"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="wave-mask" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z" style="fill: rgb(245,245,245);"></path>
+        </svg>
+        <div class="background-image"></div>
+    </div>
+
+    <div class="flex flex-col text-center items-center h-5/6 p-24">
+        <h1 class="text-4xl m-auto mb-20">Fast, reliable, and secure web hosting services for all your business<br>
+          needs</h1>
+        <div class="grid gird-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 mx-auto text-blue-500 pt-10 text-2xl">
+         <div class="p-6">s cPanel Hosting</div>
+         <div class="p-6">s Reseller Web Hosting</div>
+         <div class="p-6">s Bare Metal Server</div>
+         <div class="p-6">s WordPress Website Builder</div>
+         <div class="p-6">s eCommerce Website<br> Hosting</div>
+         <div class="p-6">s Cloud VPS</div>
+         <div class="p-6">s Minecraft Server Hosting</div>
+         <div class="p-6">s Domain Hosting</div>
+    
+        </div>
+        <button class="bg-blue-700 hover\:bg-blue-900 text-white px-7 py-2 font-bold mt-7">SIMB Chat With Us</button>
+
+        <div class="dotted-line w-screen mt-12"></div>
+        <div class="flex items-start justify-end w-2/3">
+            <p class="italic mt-5">"My job is to make sure you are 100% satisfied with your web hosting."</p>
+            <p>Sbrina D.<br>
+                  Customer Service</p>
+        </div>
+
+    </div>
+
+    <div class="get-started text-center w-screen mx-auto h-screenHeightLarge md:h-screenHeight lg:h-screenHeight xl:h-screen flex flex-col items-center bg-gray-white p-8 md:p-16 lg:p-24 bg-grayWhite">
+
+        <h1 class="text-4xl">Ready to Get Started?</h1>
+        <h2 class="text-xl mt-4 md:mt-8">Join the thousands of businesses we've helped succeed since 2001.</h2>
+     
+        <div class="flex mt-8 md:mt-12">
+            <p class="mr-2 md:mr-4">Choose Your Domain:</p>
+            <input class="border rounded-l w-full md:w-96 p-2" placeholder="What domain are you searching for?"/>
+            <button class="bg-blue-500 text-white hover:bg-blue-900 px-4 md:px-8 py-2 rounded-r">Go</button>
+        </div>
+  
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1 md:gap-6 mt-8 md:mt-12 h-full p-10">
+
+            <div class="border rounded-lg flex flex-col justify-between text-center p-4 h-boxSize w-responsiveBoxWidth md:w-72 hover:border-blue-900 bg-white">
+                <h3 class="text-2xl">Shared Hosting</h3>
+                <ul class="text-left mt-2 h-40 flex flex-col justify-between ">
+                    <li>Free Domain & SSL</li>
+                    <li>Free Website Builder</li>
+                    <li>Unlimited Bandwidth</li>
+                    <li>cPanel Included</li>
+                    <li>Unlimited Email Address</li>
+                </ul>
+                <div>
+                    <p>Starting At:</p>
+                    <span class="text-4xl">$2.99/mo</span>
+                    <span class="line-through block">$9.49/mo</span>
+                </div>
+                <button class="bg-blue-700 hover:bg-blue-900 text-white mt-4 px-4 py-2 mx-auto">Shared Hosting Plans</button>
+            </div>
+
+            <div class="border rounded-lg flex flex-col justify-between text-center h-boxSize md:w-72 p-4 w-responsiveBoxWidth hover:border-blue-900 bg-white">
+                <h3 class="text-2xl">WordPress Hosting</h3>
+                <ul class="text-left mt-2 h-40  flex flex-col justify-between">
+                    <li>Free Domain & SSL</li>
+                    <li>Free Website Builder</li>
+                    <li>Free Premium Themes & Plugins</li>
+                    <li>Advanced Caching</li>
+                    <li>Unlimited Email Address</li>
+                </ul>
+                <div>
+                    <p>Starting At:</p>
+                    <span class="text-4xl">$3.49/mo</span>
+                    <span class="line-through block">$10.99/mo</span>
+                </div>
+                <button class="bg-blue-700 hover:bg-blue-900 text-white mt-4 px-4 py-2 mx-auto">WordPress Hosting Plans</button>
+            </div>
+
+            <div class="border rounded-lg flex flex-col justify-between text-center h-boxSize md:w-72 p-4 w-responsiveBoxWidth hover:border-blue-900 bg-white">
+                <h3 class="text-2xl">VPS Hosting</h3>
+                <ul class="text-left mt-2 h-40  flex flex-col justify-between">
+                    <li>High-Availability Servers</li>
+                    <li>cPanel and Control Web Panel Available</li>
+                    <li>Free Website Transfers</li>
+                    <li>Cloud-Powered Reliability</li>
+                    <li>Isolated Resources with Hardened Security</li>
+                </ul>
+                <div>
+                    <p>Starting At:</p>
+                    <span class="text-4xl">$19.99/mo</span>
+                    <span class="line-through block">$44.99/mo</span>
+                </div>
+                <button class="bg-blue-700 hover:bg-blue-900 text-white mt-4 px-4 py-2 mx-auto">VPS Hosting Plans</button>
+            </div>
+
+            <div class="border rounded-lg flex flex-col justify-between  text-center h-boxSize md:w-72 p-4 w-responsiveBoxWidth hover:border-blue-900 bg-white">
+                <h3 class="text-2xl">Dedicated Hosting</h3>
+                <ul class="text-left mt-2 h-40  flex flex-col justify-between">
+                    <li>Configurable Server For Ultimate Flexibility</li>
+                    <li>Redundant Infrastructure With 99.99% Uptime</li>
+                    <li>Choose Between Managed With cPanel or Unmanaged Bare Metal</li>
+                </ul>
+                <div>
+                    <p>Starting At:</p>
+                    <span class="text-4xl">$89.99/mo</span>
+                    <span class="line-through block">$89.99/mo</span>
+                </div>
+                <button class="bg-blue-700 hover:bg-blue-900 text-white mt-4 px-4 py-2 mx-auto">Dedicated Hosting Plans</button>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="faq flex flex-col items-center justify-center h-5/6 mt-40">
+           <h1 class="text-4xl mb-4">Web Hosting FAQs</h1>
+            <div class="h-96 w-2/3 m-6 border rounded shadow-xl p-4">
+                <h2 class="text-2xl mb-5">What is Web Hosting?</h2>
+
+                <p>
+                    Web hosting is a service that provides you with space on a server to store your website’s data, such as web files, professional email, and databases.<br>
+                     In simple terms, you are renting server space from a web hosting company to build your website or application on. The hosting provider owns and<br>
+                     maintains the server, which is where your website’s files are stored.<br>
+                     At InMotion Hosting, we take pride in offering a range of web hosting plans, including WordPress hosting, VPS hosting (virtual private servers),<br>
+                     dedicated servers, cloud hosting, and shared web hosting. As industry leading web hosts, we own and operate our servers, which means that we have<br>
+                     complete control over their maintenance and operation. However, all of the data that you store on our servers belongs to you.<br>
+                     Depending on your chosen web hosting package, we also offer a range of features such as free SSL certificates, 99.99% uptime guarantee, a WebPro<br>
+                     control panel for agencies and freelancers, and eCommerce hosting for online stores. Additional security is of the utmost importance when choosing a<br>
+                     web hosting provider. That’s why we offer data backup solutions, dedicated IP addresses, and the option for PCI Compliance. Whether you’re a small<br>
+                     business owner or a large corporation, we have a web hosting solution that can meet your needs and exceed your expectations.
+                </p>
+               
+            </div>
+            <div class="h-96 w-2/3 m-6 border rounded shadow-xl p-4">
+                <h2 class="text-2xl mb-5">What is Shared Hosting?</h2>
+
+                <p>
+                    Shared hosting is a type of web hosting service where multiple website domains are hosted on the same server, with each website allocated a specific portion of the server resources for their data and website. In other words, the server resources are shared among multiple websites, hence the name shared hosting.
+
+This type of hosting is generally the most affordable option for those looking to host a website. With shared hosting, you don’t need to worry about managing the server or its resources, as the hosting provider takes care of that for you.
+
+At InMotion Hosting, we offer a range of shared hosting plans to fit your needs, from basic plans for personal websites to more advanced plans for businesses with higher traffic and resource needs. Our shared hosting plans come with a range of features, including unlimited disk space and bandwidth, free domain registration, and easy-to-use website builders, making it easy for anyone to get their website up and running quickly and easily.
+
+
+                </p>
+            </div>
+            <div class="h-96 w-2/3 m-6 border rounded shadow-xl p-4">
+               <h2 class="text-2xl mb-5"> How do I switch web hosting providers?</h2>
+               <p>At InMotion, we make it easy to switch website hosts. Web hosting migration and website migration from a different hosting provider is offered at no charge based on the web hosting plan you have selected. Once you buy web hosting there are several methods to transfer to websites.
+
+                We offer a free plugin if you would like to transfer your own WordPress website. If you need assistance, our support team is happy to help with cPanel to cPanel transfers. For a more complicated transfer, our Launch Assist website migration service program can transfer all of your files and databases to your new InMotion Hosting account. Some plans include Launch Assist or you can purchase it through our managed hosting department.
+                
+                Your data, website, and databases will have a seamless transition with zero downtime. If you are a web guru, you can also migrate your website to your new hosting plan without any assistance.</p>
+            </div>
+            <div class="h-96 w-2/3 m-6 border rounded shadow-xl p-4">
+               <h2 class="text-2xl mb-5">How does the web hosting money-back guarantee work if I have prepaid for a year or more?</h2>
+
+               <p>We provide a full money-back guarantee on all web hosting plans, ranging between 7 days, 30 days and 90 days – depending on your hosting plan and renewal term.
+
+                In the event, you prepaid yearly your refund will be prorated based on usage. We want to give you the best experience, no matter if you’re coming to or leaving InMotion Hosting. Unfortunately, there are no refunds for addons or Remote KVMs.
+                
+                You can read all about our guarantee in our terms of service.</p>
+            </div>
+            <div class="h-96 w-2/3 m-6 border rounded shadow-xl p-4">
+               <h2 class="text-2xl mb-5">Why should I choose InMotion Hosting as my web hosting provider?</h2>
+               
+               <p>When seeking the perfect web hosting provider to entrust with your online presence, the choice becomes pivotal. InMotion Hosting emerges as a standout option, offering a comprehensive range of hosting packages that cater to every aspect of your web site hosting service. As you embark on this digital journey, it’s essential to partner with a web page host that not only understands your unique requirements but also provides the technological prowess and support needed to ensure your online success.
+
+                InMotion Hosting is the ideal solution for your business if:
+                
+                You need a hosting solution that is fast: A majority of InMotion Hosting web host platforms come equipped with NVMe SSDs that delivers your website content in milliseconds. With high-performance and reliable NVMe storage, you can instantly serve text, images, and files to your visitors.
+                You are looking for an affordable hosting option: Whether you’re seeking a short-term hosting account to launch a project or a long-term commitment for sustained online presence, our diverse range of hosting packages and term lengths empower you with the freedom to make the choice that perfectly aligns with your goals and resource needs. 
+                You want industry leading customer support: We pride ourselves on offering 24/7/365 U.S.-based customer support. This means that whenever you need assistance for your web hosting account, a knowledgeable team is ready to address your concerns promptly and effectively.
+                You want a web hosting company with a proven track record: With a vast customer base of over 170,000 users, we prove our reliability and quality in the web hosting industry daily. Our mission is to make top-notch hosting and exceptional customer service accessible to businesses of all sizes.</p>
+            </div>
+            <div class="h-96 w-2/3 m-6 border rounded shadow-xl p-4">
+               <h2 class="text-2xl mb-5">Who owns InMotion Hosting?</h2>
+
+               <p>InMotion Hosting is a privately held company and is owned by its co-founders, Sunil Saxena and Todd Robinson. Since its founding in 2001, InMotion Hosting has been dedicated to providing top-notch web hosting solutions to businesses of all sizes. The company’s headquarters is located in Virginia Beach, Virginia, where it has built a reputation for delivering reliable, secure, and high-performing hosting services.
+
+                As a privately held company, InMotion Hosting has the flexibility to make decisions that are in the best interest of its customers. This means that the company can focus on delivering customized hosting solutions that meet the unique needs of its customers, rather than catering to shareholders or investors.
+                
+                At InMotion Hosting, we take pride in the fact that we own and operate our own servers in our data centers. This allows us to maintain a higher level of control over the hosting environment and ensure that our customers receive a fast, secure, and reliable web hosting service. With our team of experts dedicated to providing exceptional customer service, InMotion Hosting is the clear choice for businesses looking for a hosting solution that can meet their specific needs.</p>
+            </div>
+    
+    </section>
+    <section class="track flex text-center items-center justify-center w-screen">
+        <h1 class="text-3xl">Need Help Deciding? We're Here For You</h1>
+
+        <button class="border">Chat With Us</button>
+
+    </section>
+
+    <footer class="w-100 h-screen">
+        <div class="top-footer mx-auto block w-2/3 md:flex h-2/3 items-center justify-around">
+            <div class="text-blue-500 h-4/5 border">
+                <h3 class="mb-4 text-black">WEB HOSTING</h3>
+                <p>Shared Hosting</p>
+                <p>WordPress Hosting</p>
+                <p>WordPress VPS</p>
+                <p>VPS Hosting</p>
+                <p>Cloud VPS</p>
+                <p>Dedicated Server Hosting</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Shared Hosting</p>
+                <p>WordPress Hosting</p>
+                <p>WordPress VPS</p>
+                <p>VPS Hosting</p>
+                <p>Cloud VPS</p>
+                <p>Dedicated Server Hosting</p>
+                
+            </div>
+            <div class="text-blue-500 h-4/5">
+                <h3 class="mb-4 text-black">HOSTING TOOLS</h3>
+                <p>WordPress</p>
+                <p>WooCommerce Hosting</p>
+                <p>WordPress VPS</p>
+                <p>VPS Hosting</p>
+                <p>Cloud VPS</p>
+                <p>Dedicated Server Hosting</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Shared Hosting</p>
+                <p>WordPress Hosting</p>
+                <p>WordPress VPS</p>
+                <p>VPS Hosting</p>
+                <p>Cloud VPS</p>
+                <p>Dedicated Server Hosting</p>
+             </div>
+            <div class="text-blue-500 h-4/5">
+                <h3 class="mb-4 text-black">SUPPORT</h3>
+                <p>WordPress</p>
+                <p>WooCommerce Hosting</p>
+                <p>WordPress VPS</p>
+                <p>VPS Hosting</p>
+                <p>Cloud VPS</p>
+                <p>Dedicated Server Hosting</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Shared Hosting</p>
+                
+            </div>
+            <div class="text-blue-500 h-4/5">
+                <h4 class="mb-4 text-black">ABOUT US</h4>
+                <p>WordPress</p>
+                <p>WooCommerce Hosting</p>
+                <p>WordPress VPS</p>
+                <p>VPS Hosting</p>
+                <p>Cloud VPS</p>
+                <p>Dedicated Server Hosting</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Shared Hosting</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Shared Hosting</p>
+            </div>
+
+        </div>
+        <div class="bottom-footer h-56 w-screen bg-blue-700">
+            
+        </div>
+    </footer>
+ <script src="main.js"></script>
 </body>
 </html>
+
+
 
 
 
