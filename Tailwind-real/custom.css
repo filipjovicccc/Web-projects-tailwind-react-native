@@ -37,7 +37,7 @@
   .background-image{
     width:100%;
     height: 50vh;
-    background-image: url('https://www.inmotionhosting.com/wp-content/uploads/2022/03/imh-business-needs.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)), url(https://www.inmotionhosting.com/wp-content/uploads/2022/03/imh-business-needs.jpg);
     background-size: cover;
     background-position: center;
     margin: auto;
@@ -55,10 +55,10 @@
   }
 
   .track{
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)), url(https://www.inmotionhosting.com/wp-content/uploads/2022/03/footer-cover.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)), url(https://www.inmotionhosting.com/wp-content/uploads/2022/03/footer-cover.jpg);
+    /* background-position: 50% 50%; */
     height: 20vh;
+    width: 100%;
  
   }
 

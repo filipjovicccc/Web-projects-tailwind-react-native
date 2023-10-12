@@ -3,16 +3,15 @@ module.exports = {
   content: ['./*html'],
   theme: {
    extend:{
-     height:{
-       'boxSize': '500px',
-       'screenHeight': '180vh',
-       'screenHeightLarge': '280vh',
-       
 
-     },
-     width:{
-      'responsiveBoxWidth': '540px'
-     },
+   height:{
+    100: '100vh',
+    200: '200vh',
+    300: '300vh',
+    400: '400vh',
+    500: '500vh',
+   },
+
      colors: {
  
        whitePrimary: 'rgba(255, 255, 255, 0.862)',
@@ -30,8 +29,7 @@ module.exports = {
           sm: '480px',
           md: '768px',
           lg: '1050px',
-          xl: '1440px',
-          mega: '1500px'
+          xl: '1440px'
         },
       
   },
