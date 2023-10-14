@@ -30,7 +30,7 @@
   }
 
   .blocking {
-    display: block
+    display: none
   }
 
 
@@ -62,9 +62,32 @@
  
   }
 
+  #footer-section{
+    height: 20vh;
+    background-color: orange;
+  }
+  /* servers flex justify-between flex-wrap border p-8 mx-auto mb-14 mt-4"> */
+ .servers{
+  background-color: aqua;
+  /* display: flex;
+  flex-wrap: wrap; */
+  height: 300px;
+  width:700px;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+ }
   @media screen and (max-width: 960px){
     .section{
       margin-top: 20em;
+    }
+
+    .servers{
+       height: 1000px;
+       align-items: center;
+       
     }
   }
  @media screen and (max-width: 1400px){

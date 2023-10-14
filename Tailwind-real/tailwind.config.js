@@ -5,11 +5,8 @@ module.exports = {
    extend:{
 
    height:{
-    100: '100vh',
-    200: '200vh',
-    300: '300vh',
-    400: '400vh',
-    500: '500vh',
+    boxRandom: "1200px"
+
    },
 
      colors: {
