@@ -1,12 +1,93 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+    <link rel="stylesheet" href="main.css">
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: #3498db;
+      transition: width 0.5s ease, height 0.5s ease, transform 0.5s ease;
+    }
+
+    .box:hover {
+      width: 150px;
+      height: 150px;
+      transform: rotate(45deg);
+    }
+
+    .container{
+        display: grid;
+      
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+
+    }
+
+    .smallBox{
+
+        border: 1px solid black
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello from javascript Practice</h1>
-    <script src="app.js"></script>
-    
+  <div class="box"></div>
+
+  <!-- <div class="container">
+    <div class="smallBox">1</div>
+    <div class="smallBox">2</div>
+    <div class="smallBox">3</div>
+
+    <div class="smallBox">1</div>
+    <div class="smallBox">2</div>
+    <div class="smallBox">3</div>
+    <div class="smallBox">4</div>
+
+
+    <div> -->
+       <div class="grid-container">
+        <div class="grid-item grid-item-1">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut harum reiciendis voluptates deleniti earum ipsum commodi atque, similique magnam quae hic possimus voluptatem illo doloremque accusamus rem cumque non. Quam at sed laborum fugiat minima aut, nam iure molestiae sequi dignissimos culpa neque eius non soluta eveniet commodi qui? Assumenda?</p>
+        </div>
+
+        <div class="grid-item grid-item-2">
+            <h3>Grid 2</h1>
+
+        </div>
+
+        <div class="grid-item grid-item-3">
+            <h3>Grid 3</h1>
+
+
+        </div>
+        <div class="grid-item grid-item-3">
+            <h3>Grid 3</h1>
+
+
+        </div>
+        <div class="grid-item grid-item-3">
+            <h3>Grid 3</h1>
+
+
+        </div>
+
+
+       </div>
+  
+
+    </div>
+
+
+  </div>
 </body>
 </html>
+In this example, when you hover over the box, it will smoothly transition in size and rotation due to the specified transition properties.
+
+Feel free to experiment with these basic concepts to create various animations and transitions on your web page.
+
+
+Grid pomaze da lejautujemo ne samo u jednoj dimenziji
+
+vec i u dve dimenzie, grid gaps
+
+
